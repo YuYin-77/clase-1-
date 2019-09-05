@@ -1,0 +1,7 @@
+git init 
+git status        verifica los archivos si se modifico o no 
+git add . 
+git commit -m "mensaje cualquiera"
+git log (lista los commits y sus codigos) 
+git remote add origin + link de archivo (realiza el enlace con el repositorio remoto)
+git push -u origin master (sube los archivo)
