@@ -1,7 +1,15 @@
-git init 
-git status        verifica los archivos si se modifico o no 
-git add . 
-git commit -m "mensaje cualquiera"
-git log (lista los commits y sus codigos) 
-git remote add origin + link de archivo (realiza el enlace con el repositorio remoto)
-git push -u origin master (sube los archivo)
+"CUANDO SE CREA UN REPOSITORIO DE UNA CARPETA LOCAL AL REMOTO DE GIT HUB"
+PASOS 1,2,3,4,5
+1 git init
+"CUANDO SE MODI?FICA UN ARCHIVO LOCAL Y DESEAS QUE SE MANTENGA EN GIT HUB (REMOTO)"
+PASOS 2,3,5
+2 git add . 
+3 git commit -m "mensaje cualquiera"
+4 git remote add origin + link de archivo  (realiza el enlace con el repositorio remoto)
+5 git push -u origin master                (sube los archivo)
+
+git status        (verifica los archivos si se modifico o no) 
+git log           (lista los commits y sus codigos) 
+git clone + URL del repositorio         (clonar o copiar carpeta del git hub a una carpeta local) 
+git pull (modificaciòn de un archivo de otra maquina a tu màquina local)
+git checkout master (regresar o visualizar un archivo modificado previamente)
